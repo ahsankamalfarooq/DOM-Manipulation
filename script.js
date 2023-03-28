@@ -104,21 +104,41 @@
 ////////////////////// CREATE ELEMENT //////////////////////
 
 
-const heading = document.createElement('h1') //just created
+// const heading = document.createElement('h1') //just created
 
-heading.innerHTML = 'this is create element'
+// heading.innerHTML = 'this is create element'
+// heading.classList.add('heading')
 
-const parent = document.querySelector('.parent')
-parent.appendChild(heading)
-
-console.log(heading)
-
+// const parent = document.querySelector('.parent')
+// parent.appendChild(heading)
 
 
 
+// const subHeading = document.createElement('h3') //just created
+// subHeading.innerHTML = 'hello sub world'
+
+// // append at the last of the page
+// parent.appendChild(subHeading)
+
+// // if we want to put it before the some tag so we should do this
+
+// heading.insertAdjacentElement('beforeBegin', subHeading)
+
+// console.log(heading)
 
 
 
+////////////////////// DOM Events //////////////////////
+
+
+const button =  document.querySelector('#btn');
+const heading = document.querySelector('#heading');
+
+
+button.addEventListener('click', (event) => {
+    heading.style.color = 'cyan'
+    console.log('button clicked', event)
+})
 
 
 
