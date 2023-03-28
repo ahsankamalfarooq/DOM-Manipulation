@@ -1,0 +1,66 @@
+DOM Manipulation Techniques
+
+├── Selecting Elements
+│ ├── `getElementById()`
+│ ├── `getElementsByClassName()`
+│ ├── `getElementsByTagName()`
+│ ├── `querySelector()`
+│ └── `querySelectorAll()`
+
+├── Modifying Elements
+│ ├── `innerHTML`
+│ ├── `textContent`
+│ ├── `setAttribute()`
+│ ├── `getAttribute()`
+│ ├── `removeAttribute()`
+│ ├── `classList`
+│ ├── `style`
+│ └── `appendChild()`
+
+├── Creating and Deleting Elements
+│ ├── `createElement()`
+│ ├── `createTextNode()`
+│ ├── `cloneNode()`
+│ ├── `insertBefore()`
+│ ├── `removeChild()`
+│ └── `replaceChild()`
+
+├── Traversing the DOM
+│ ├── `parentNode`
+│ ├── `childNodes`
+│ ├── `firstChild`
+│ ├── `lastChild`
+│ ├── `nextSibling`
+│ └── `previousSibling`
+
+├── Events
+│ ├── `addEventListener()`
+│ ├── `removeEventListener()`
+│ ├── `event.target`
+│ ├── `event.preventDefault()`
+│ ├── `event.stopPropagation()`
+│ └── Event types
+
+├── Styling Elements
+│ ├── `className`
+│ ├── `classList`
+│ ├── `style`
+│ ├── `getComputedStyle()`
+│ └── CSS properties
+
+├── Layout
+│ ├── `offsetWidth`
+│ ├── `offsetHeight`
+│ ├── `clientWidth`
+│ ├── `clientHeight`
+│ ├── `scrollWidth`
+│ └── `scrollHeight`
+
+└── Animations
+├── CSS Animations
+├── `requestAnimationFrame()`
+├── `setInterval()`
+├── `setTimeout()`
+├── `cancelAnimationFrame()`
+├── `clearInterval()`
+└── `clearTimeout()`
