@@ -81,13 +81,37 @@
 
 // // const parent = heading.parentNode;
 
-// console.log(heading.previuosElementSibling)
+// console.log(heading.previousElementSibling);
 // // console.log(parent)
 
 
 
+/////////////// MANIPULATION //////////////////
 
 
+// const heading = document.querySelector('.heading')
+
+// // const parent = heading.parentNode;
+// heading.innerHTML = 'Hello World'
+// heading.style.color = 'green'
+// heading.style.fontSize = '30px'
+// heading.classList.add('title')
+// heading.classList.remove('heading')
+
+// console.log(heading.);
+// console.log(parent)
+
+////////////////////// CREATE ELEMENT //////////////////////
+
+
+const heading = document.createElement('h1') //just created
+
+heading.innerHTML = 'this is create element'
+
+const parent = document.querySelector('.parent')
+parent.appendChild(heading)
+
+console.log(heading)
 
 
 
