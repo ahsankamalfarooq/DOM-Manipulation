@@ -131,14 +131,62 @@
 ////////////////////// DOM Events //////////////////////
 
 
-const button =  document.querySelector('#btn');
-const heading = document.querySelector('#heading');
+// const button =  document.querySelector('#btn');
+// const heading = document.querySelector('#heading');
 
 
-button.addEventListener('click', (event) => {
-    heading.style.color = 'cyan'
-    console.log('button clicked', event)
+// button.addEventListener('click', (event) => {
+//     heading.style.color = 'cyan'
+//     heading.style.fontSize = '50px'
+//     console.log('button clicked', event)
+// })
+
+/////////////////////Bulb Project//////////////////////////
+
+const bulb = document.querySelector('#bulb')  // img
+console.log(bulb)
+const bulbSwitch = document.querySelector('#bulbSwitch') //btn
+
+bulbSwitch.addEventListener('click', (event) => {
+    // console.log(bulb.src)
+    if( bulb.src.match('off') ) {
+        
+        bulb.src = './bulb-on.gif'
+        bulbSwitch.innerHTML = "Turn Off"
+    } else {
+        bulb.src = './bulb-off.png'
+        bulbSwitch.innerHTML = "Turn On"
+        
+    }
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
